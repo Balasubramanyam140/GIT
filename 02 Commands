@@ -122,7 +122,29 @@ STEP - 2 )
     Ex:
          git remote add origin https://github.com/Balasubramanyam140/Git-Workplace
 
+ {
+      if it asks to give details id and password
+      id :  ur github username (Balasubramanyam140)
+      pwd: is the PAT token u have to paste 
+              pwd Steps :
+              ----------
+                Generate a Personal Access Token (PAT):
+                    
+                    Go to GitHub's Personal Access Tokens page.
+                    Click Generate new token (classic).
+                    Set an expiration date (e.g., 30 days, 90 days, or no expiration).
+                    Enable the following scopes for general Git operations:
+                    repo (for accessing repositories).
+                    Click Generate token and copy the token.
 
+
+18 ) git push origin master
+    ------------------------
+      ->  git push: This tells Git to upload your changes from the local repository to the remote repository.
+      ->  origin: This is the name of the remote repository (usually set when you clone or add a remote using 
+                    git remote add origin <URL>).
+      ->  master: This specifies the branch you want to push (commonly the default branch, though newer 
+                    GitHub repositories use main).
 
 
 
