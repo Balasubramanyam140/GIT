@@ -1,0 +1,19 @@
+1) cd filename
+  --------------
+          Navigate to the Desktop or goes to that particular file
+      ex : cd Desktop
+2) ls
+  ----
+          After navigating, you can list the files and folders in your current directory
+      ex: ls
+
+3) cd ~
+   ----
+          To return to your home directory:
+     ex : cd ~
+
+4) mkdir fileName
+   ----------------
+          The mkdir command is used to create a new directory (folder) in your current location or a specified path
+      ex : mkdir Project
+
