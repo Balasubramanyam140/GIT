@@ -43,4 +43,41 @@
         It helps you track changes in your project, such as files that have been modified, added, or deleted, 
         and whether those changes are staged for a commit.
 
+  -- >Steps to add permanentely to our history follow step 9 - 10 then it will go into history
 
+  STEP -1 )
+
+      9) git add .      (or)         git add fileName
+        ----------                 ---------------------
+                The command git add . stages all the changes in the current directory (and its subdirectories) to be committed. This includes:
+          
+                    New files that have not yet been tracked by Git.
+                    Modified files that have been changed since the last commit.
+                    Deleted files that have been removed from the working directory.
+                    
+                git add .
+                    Explanation:
+                    The . (dot) means "all files in the current directory and its subdirectories."
+                    It doesn't commit the changes, but it prepares the files for committing by adding them to the staging area.
+          
+STEP - 2 )
+     
+        10) git commit -m " filename file added"
+           ------------------------------------
+                      The command git commit -m "filename file added" creates a commit in Git with a message describing 
+                      the changes made. However, the commit message should be more descriptive of what was changed, 
+                      rather than just the file name.
+          
+                ex :
+                    git commit -m "Added newfile.txt to project directory"
+                            This message clearly explains what was added and where.
+          
+11) vi fileName
+   --------------
+        The command vi filename opens the specified file (in this case, filename) in the vi (or vim) text editor. 
+          Here’s how to use vi effectively:
+          Ex :
+                  vi filename
+                        If the file exists, it will open the file for editing.
+                        If the file doesn’t exist, a new file will be created with that name.
+                    
