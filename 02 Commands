@@ -80,4 +80,11 @@ STEP - 2 )
                   vi filename
                         If the file exists, it will open the file for editing.
                         If the file doesn’t exist, a new file will be created with that name.
-                    
+
+12) rm -rf filename
+    ---------------
+          The command rm -rf filename is used in Linux/Unix-based systems to forcefully delete a file or directory 
+          along with all its contents.
+        Ex:
+            rm -f filename
+
