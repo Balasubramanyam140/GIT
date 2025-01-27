@@ -87,4 +87,13 @@ STEP - 2 )
           along with all its contents.
         Ex:
             rm -f filename
+13) git reset 
+   ------------
+            The git reset command is used to undo changes in a Git repository. It can modify the current branch's 
+            commit history and the working directory. Its behavior depends on the options provided 
+            (--soft, --mixed, --hard).
+        Ex:
+              git reset  77b1f593454f2f6629799e8d394d7b15a1f6bcd3  
+
+
 
