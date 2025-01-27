@@ -1,0 +1,20 @@
+Step 1 : https://www.youtube.com/watch?v=B4qsvQ5IqWk
+        install git in oour lappy
+    type:
+      1)    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      2)    type ur password of ur lappy or which uh givem
+      3)     Enter
+      4)    brew --version
+           it should give version or else follow steps
+              {
+                1) echo >> /Users/bonubalasubramanyam/.zprofile echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/bonubalasubramanyam/.zprofile
+                2) eval "$(/opt/homebrew/bin/brew shellenv)"
+               }
+      5)    brew --version
+      6)    brew install git
+      7)    git --version
+      8)    git config --global user.name "Bonu Balasubramanyam"
+      9)    git config --global user.name
+      10)   git config --global user.email "bonubalu2018@gmail.com" 
+      11)   git config --global user.email
+-----------------------------------------------------------------------------------------------------------
