@@ -95,5 +95,37 @@ STEP - 2 )
         Ex:
               git reset  77b1f593454f2f6629799e8d394d7b15a1f6bcd3  
 
+14) git stash 
+    ----------
+            he git stash command is a powerful tool in Git that temporarily saves changes in your working directory 
+            without committing them. This allows you to clean your working directory so you can work on something 
+            else, switch branches, or pull updates, and then return to your saved changes later
+        Ex:
+            git stash
+
+15)  git stash pop
+    ---------------
+          The git stash pop command is used to reapply the most recent stash to your working directory and delete 
+          it from the stash list. It's a convenient way to retrieve your stashed changes while cleaning up the 
+          stash history.
+
+16) git stash clear
+    ---------------
+          The git stash clear command is used to delete all stashes saved in the repository. After running this
+          command, the stash list will be empty, and all saved changes in the stash will be permanently removed.
+
+17) git remote add origin <respoitory-url>
+    --------------------------------------
+        The git remote add origin command is used to link your local Git repository to a remote repository 
+        (typically hosted on platforms like GitHub, GitLab, or Bitbucket). This allows you to push your local 
+        changes to the remote repository and pull updates from it.
+    Ex:
+         git remote add origin https://github.com/Balasubramanyam140/Git-Workplace
+
+
+
+
+
+
 
 
