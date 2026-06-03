@@ -1,6 +1,7 @@
 1) Diff Btw GIT & Github
 2) Git repository
 3) Git status
+4) git init
 
 1) Diff Btw GIT & Github
 
@@ -26,3 +27,8 @@
 3) Git status
      " git status is command used to check the current state of the repository. It shows which files are modified, staged 
         or untracked in the working directory."
+
+
+4) git init
+     Git init is a command used to intialize a new Git repository. It converts a normal folder into a Git repo so that Git 
+        can start tracking changed.
