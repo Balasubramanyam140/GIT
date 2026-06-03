@@ -1,4 +1,5 @@
 1) Diff Btw GIT & Github
+2) Git repository
 
 1) Diff Btw GIT & Github
 
@@ -14,3 +15,8 @@
     ======
     Github is a service that hosts Git repositories in the cloud and makes it easier to collaborate with other people.
     You do need to sign up for an account to use Github. It's an online place to share work that is done using Git.
+
+
+2) Git repository
+     " A Git repo is a storage location that contains project files along with their complete version history, allowing us
+       to track changes and collaborate with others. "
