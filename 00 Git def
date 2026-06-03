@@ -1,5 +1,6 @@
 1) Diff Btw GIT & Github
 2) Git repository
+3) Git status
 
 1) Diff Btw GIT & Github
 
@@ -20,3 +21,8 @@
 2) Git repository
      " A Git repo is a storage location that contains project files along with their complete version history, allowing us
        to track changes and collaborate with others. "
+
+
+3) Git status
+     " git status is command used to check the current state of the repository. It shows which files are modified, staged 
+        or untracked in the working directory."
